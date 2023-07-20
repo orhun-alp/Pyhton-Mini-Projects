@@ -3,7 +3,9 @@ print("Hello my game")
 playing = input("Do you want to game? Yes or No? ")
 
 if playing.lower() != "yes":
+    print("Bye Bye")
     quit()
+    
     
 print("Ok! Lets play game ")
 score = 0
